@@ -32,7 +32,7 @@ const weatherReport = async () => {
   document.querySelector(
     "#weather-wind"
   ).innerHTML = `${data?.wind?.speed}km/h`;
-  console.log(img);
+
   if (data?.weather[0]?.main === "Clouds") img.src = "Images/clouds.png";
   else if (data?.weather[0]?.main === "Rain") img.src = "Images/rain.png";
   if (data?.weather[0]?.main === "Clear") img.src = "Images/clear.png";
