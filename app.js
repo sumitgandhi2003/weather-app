@@ -2,7 +2,6 @@ const apiKey = "0c3e612d31bdec89e1385a1d8f6c661c";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&";
 
 const weatherReport = async () => {
-  console.log("data Fetching from weather Sites...");
   const inputText = document
     .querySelector("#search-input")
     .value.toLowerCase()
