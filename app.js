@@ -34,9 +34,9 @@ const weatherReport = async () => {
 
   if (data?.weather[0]?.main === "Clouds") img.src = "Images/clouds.png";
   else if (data?.weather[0]?.main === "Rain") img.src = "Images/rain.png";
-  if (data?.weather[0]?.main === "Clear") img.src = "Images/clear.png";
-  if (data?.weather[0]?.main === "Drizzle") img.src = "Images/drizzle.png";
-  if (data?.weather[0]?.main === "Mist") img.src = "Images/mist.png";
+  else if (data?.weather[0]?.main === "Clear") img.src = "Images/clear.png";
+  else if (data?.weather[0]?.main === "Drizzle") img.src = "Images/drizzle.png";
+  else if (data?.weather[0]?.main === "Mist") img.src = "Images/mist.png";
 };
 
 const input = document.querySelector("#search-input");
