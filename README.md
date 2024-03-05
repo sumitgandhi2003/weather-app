@@ -25,7 +25,7 @@ The Weather App is a simple web application that allows users to check the curre
 
 To use the OpenWeatherMap API, you need to obtain an API key. Follow these steps:
 
-1. Sign up for a free account at [OpenWeatherMap](external.ink?to=openweathermap.org/).
+1. Sign up for a free account at [OpenWeatherMap](https://www.openweathermap.org/).
 2. Retrieve your API key from the dashboard.
 3. Replace the `YOUR_API_KEY` in the `script.js` file with your actual API key.
 
